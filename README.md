@@ -16,8 +16,11 @@ open MintermMinimizer.sln and run the program
 Input format:
 
 0001;
+
 0001,
+
 1111;
+
 
 each line is end with ";" or "," and keep the size of input same
 otherwise you got wrong or no answer.
@@ -26,17 +29,26 @@ if you mistakenly repeat some inputs then this program can take
 care of this and correct this with out any effect on final answer 
 
 0000;
+
 0001;
+
 0000;
+
 0001;
+
 1111;
+
 
 Dont Care Minterms:
 for dont care minterms write d or D at the end of literal
 0000;
+
 0001;
+
 0001d;
+
 1111d;
+
 
 
 
