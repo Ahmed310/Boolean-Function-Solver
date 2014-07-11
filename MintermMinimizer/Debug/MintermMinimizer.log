@@ -1,0 +1,24 @@
+﻿Build started 7/9/2014 8:04:56 PM.
+     1>Project "D:\my data\some project data\Source Code + exe(310,321)\Source Code\MintermMinimizer\MintermMinimizer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\MintermMinimizer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>d:\my data\some project data\source code + exe(310,321)\source code\mintermminimizer\main.c(48): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\my data\some project data\source code + exe(310,321)\source code\mintermminimizer\main.c(73): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\my data\some project data\source code + exe(310,321)\source code\mintermminimizer\main.c(408): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\my data\some project data\source code + exe(310,321)\source code\mintermminimizer\main.c(670): error C2078: too many initializers
+     1>d:\my data\some project data\source code + exe(310,321)\source code\mintermminimizer\main.c(672): error C2078: too many initializers
+     1>d:\my data\some project data\source code + exe(310,321)\source code\mintermminimizer\main.c(843): warning C4047: 'function' : 'const char *' differs in levels of indirection from 'char'
+     1>d:\my data\some project data\source code + exe(310,321)\source code\mintermminimizer\main.c(843): warning C4024: 'printf' : different types for formal and actual parameter 1
+     1>d:\my data\some project data\source code + exe(310,321)\source code\mintermminimizer\main.c(845): warning C4047: 'function' : 'const char *' differs in levels of indirection from 'char'
+     1>d:\my data\some project data\source code + exe(310,321)\source code\mintermminimizer\main.c(845): warning C4024: 'printf' : different types for formal and actual parameter 1
+     1>Done Building Project "D:\my data\some project data\Source Code + exe(310,321)\Source Code\MintermMinimizer\MintermMinimizer.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.79
